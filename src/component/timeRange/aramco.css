@@ -1,0 +1,87 @@
+.css-3um24x {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    width: 100%;
+    text-align: start;
+    color: white;
+  }
+  
+  @-webkit-keyframes slideProgress {
+    0% {
+      -webkit-transform: translateX(-100%);
+      -moz-transform: translateX(-100%);
+      -ms-transform: translateX(-100%);
+      transform: translateX(-100%);
+    }
+    50% {
+      -webkit-transform: translateX(0%);
+      -moz-transform: translateX(0%);
+      -ms-transform: translateX(0%);
+      transform: translateX(0%);
+    }
+    100% {
+      -webkit-transform: translateX(100%);
+      -moz-transform: translateX(100%);
+      -ms-transform: translateX(100%);
+      transform: translateX(100%);
+    }
+  }
+  
+  @keyframes slideProgress {
+    0% {
+      -webkit-transform: translateX(-100%);
+      -moz-transform: translateX(-100%);
+      -ms-transform: translateX(-100%);
+      transform: translateX(-100%);
+    }
+    50% {
+      -webkit-transform: translateX(0%);
+      -moz-transform: translateX(0%);
+      -ms-transform: translateX(0%);
+      transform: translateX(0%);
+    }
+    100% {
+      -webkit-transform: translateX(100%);
+      -moz-transform: translateX(100%);
+      -ms-transform: translateX(100%);
+      transform: translateX(100%);
+    }
+  }
+  
+  .css-3um24x .pagination__progress {
+    z-index: 9;
+    width: 270px;
+    height: 0.25rem;
+    background: gray;
+    position: relative;
+    overflow: hidden;
+    list-style: none;
+  }
+  
+  .css-3um24x .pagination__progress .progress-bar {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: blue;
+    -webkit-transform: translateX(-100%);
+    -moz-transform: translateX(-100%);
+    -ms-transform: translateX(-100%);
+    transform: translateX(-100%);
+    -webkit-animation-timing-function: ease-in-out ;
+    animation-timing-function: ease-in-out ;
+    /* -webkit-animation-duration: 7.6s;
+    animation-duration: 7s; */
+    -webkit-animation-delay: 0.4s;
+    animation-delay: 0.4s;
+    -webkit-animation-name: slideProgress;
+    animation-name: slideProgress;
+    list-style: none;
+  }
+  
+  li.is-active .css-3um24x .pagination__progress .progress-bar {
+    -webkit-animation-name: slideProgress;
+    animation-name: slideProgress;
+  }

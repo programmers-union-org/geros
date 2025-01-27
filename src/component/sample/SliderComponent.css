@@ -1,0 +1,61 @@
+/* SliderComponent.css */
+section {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    /* height: 30vh; */
+    /* margin-top: 150px; */
+}
+
+.slider.slick-dotted.slick-slider {
+    max-width: 768px;
+    margin: 0 auto 5px;
+}
+
+.slider div {
+    background: #b89f3d;
+    color: #081edd;
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+    height: 100vh;
+}
+
+.slider .slick-dots {
+    position: relative;
+    max-width: 250px;
+    margin: 0 auto;
+}
+
+.slider .slick-dots li button:before {
+    color: #fff;
+    content: '•';
+    background: #fff;
+    border-radius: 50%;
+    font-size: 10px;
+    line-height: 12px;
+    width: 10px;
+    height: 10px;
+}
+
+.slick-dots .animated-dot {
+    background-image: url("https://img.icons8.com/plasticine/100/000000/play.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 14px;
+    width: 16px;
+}
+
+.slider-progress {
+    width: 100%;
+    height: 3px;
+    background: #6d6a6a;
+    max-width: 768px;
+    margin: 0 auto;
+}
+
+.slider-progress .progress {
+    width: 0%;
+    height: 3px;
+    background: #cee103;
+}

@@ -1,0 +1,29 @@
+/* Initial styles for .aramcocom__header */
+.aramcocom__header {
+    will-change: transform, opacity;
+    transition: transform 0.7s ease-in-out, opacity 0.7s ease-in-out;
+    -webkit-transition: -webkit-transform 0.7s ease-in-out, opacity 0.7s ease-in-out;
+    transform: translate3d(0, 0, 0);
+    -webkit-transform: translate3d(0, 0, 0);
+    opacity: 1;
+}
+
+/* Styles for .aramcocom__header when it has -translate-y-full class */
+.aramcocom__header.-translate-y-full {
+    transform: translate3d(0, -100%, 0);
+    -webkit-transform: translate3d(0, -100%, 0);
+    opacity: 0;
+}
+
+/* Safari-specific CSS for compatibility */
+@supports (-webkit-touch-callout: none) {
+    .aramcocom__header {
+        opacity: 1;
+        transform: translateY(0);
+    }
+    
+    .aramcocom__header.-translate-y-full {
+        opacity: 0;
+        transform: translateY(-100%);
+    }
+}

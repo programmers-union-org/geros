@@ -1,0 +1,14 @@
+import React, { useEffect, useRef, useState } from "react";
+import "./s1.css";
+import "./s2.css";
+import "./s3.css";
+import "./s4.css";
+import "./s6.css";
+import "./s7.css";
+import "./s8.css";
+import "./s9.css";
+import "./s10.css";
+import menu1 from "../../assets/menu1.png";
+import close from "../../assets/close.png";
+import singleLogos from "../../assets/singleLogos.png";
+import { Link } from "react-router-dom";

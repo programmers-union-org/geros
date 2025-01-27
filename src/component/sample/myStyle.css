@@ -1,0 +1,71 @@
+.css-ai42w9 .mainnav__item:hover, .css-ai42w9 .mainnav__item:focus-visible {
+    color: var(--chakra-colors-primary-aramcoBlue);
+}
+
+.css-ai42w9 .mainnav__item:hover {
+    -webkit-background-size: 100% 1px;
+    background-size: 100% 1px;
+}
+.css-ai42w9 .mainnav__item {
+    display: block;
+    transition-duration: .75s;
+    transition-timing-function: var(--chakra-transition-easing-ease-in-out);
+    transition-property: color;
+    letter-spacing: var(--chakra-letterSpacings-superWide);
+    font-size: var(--chakra-fontSizes-sm);
+    font-family: var(--chakra-fonts-heading);
+    text-transform: uppercase;
+    font-weight: 600;
+    position: relative;
+    background: linear-gradient(currentColor, currentColor) left bottom no-repeat;
+    -webkit-background-size: 0% 1px;
+    background-size: 0% 1px;
+    -webkit-transition: background-size .35s;
+    transition: background-size .35s;
+}
+.drowpDownLineAndColor {
+    display: block;
+    transition-duration: .75s;
+    transition-timing-function: var(--chakra-transition-easing-ease-in-out);
+    transition-property: color;
+    letter-spacing: var(--chakra-letterSpacings-superWide);
+    font-size: var(--chakra-fontSizes-sm);
+    font-family: var(--chakra-fonts-heading);
+    font-weight: 600;
+    position: relative;
+    background: linear-gradient(currentColor, currentColor) left bottom no-repeat;
+    -webkit-background-size: 0% 1px;
+    background-size: 0% 1px;
+    -webkit-transition: background-size .35s;
+    transition: background-size .35s;
+}
+.drowpDownLineAndColor:hover, .drowpDownLineAndColor:focus-visible {
+    color: var(--chakra-colors-primary-aramcoBlue);
+}
+
+.drowpDownLineAndColor:hover {
+    -webkit-background-size: 100% 1px;
+    background-size: 100% 1px;
+}
+
+@media screen and (min-width: 62rem) {
+    .mainnav--active .css-1oupbnk {
+        /* top: var(--chakra-sizes-navigationTopSpacing); */
+        height: 100vh;
+    }
+}
+
+.mainnav--active .css-1oupbnk {
+    /* position: absolute;
+    top: 134px;
+    left: 0px; */
+    width: 100%;
+    background: rgba(31, 31, 31, 0.7);
+    z-index: 3;
+    overflow: hidden;
+}
+@media screen and (min-width: 62rem) {
+    .css-1oupbnk {
+        transform: none !important;
+    }
+}
