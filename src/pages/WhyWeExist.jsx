@@ -1,5 +1,4 @@
-import React from "react";
-import InnerBanner from "../../../innerPage/InnerBanner";
+import InnerBanner from "../innerPage/InnerBanner";
 import { Helmet } from "react-helmet-async";
 
 const WhyWeExist = () => {

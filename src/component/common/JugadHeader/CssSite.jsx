@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from "react";
+import  { useEffect, useRef, useState } from "react";
 import './s1.css'
 import './s2.css'
 import './s3.css'
@@ -9,12 +9,11 @@ import './s8.css'
 import './s9.css'
 import './s10.css'
 import './myStyle.css'
-import '../../styl.css'
-import HtmlHead from "./HtmlHead";
-import one from "../../assets/one1.jpg";
-import two from "../../assets/one2.jpg";
-import three from "../../assets/one3.jpg";
-import four from "../../assets/one4.jpg";
+import '../../../styl.css'
+import one from "../../../assets/one1.jpg";
+import two from "../../../assets/one2.jpg";
+import three from "../../../assets/one3.jpg";
+import four from "../../../assets/one4.jpg";
 
 
 
@@ -163,107 +162,6 @@ const CssSite = () => {
                           </a>
                         </span>
                       </span>
-                      {/* <div class="slide__links css-15tp3vc">
-                        <div class="slide__link css-1a3d90w">
-                          <span
-                            class="chakra-link css-wfga6a"
-                            data-group="true"
-                          >
-                            <a
-                              class="chakra-link css-wfga6a"
-                              href="#"
-  
-                              target="_blank"
-                            >
-                              <span>Q1 2024 interim report</span>
-                              <div class="icon-container css-1tu61vr">
-                                <div class="icon-wrapper css-169nrdu">
-                                  <svg
-                                    width="24"
-                                    height="24"
-                                    viewBox="0 0 24 24"
-                                    fill="none"
-                                    xmlns="http://www.w3.org/2000/svg"
-                                    aria-hidden="true"
-                                    focusable="false"
-                                    class="chakra-icon css-1r46jhu"
-                                  >
-                                    <path
-                                      fill-rule="evenodd"
-                                      clip-rule="evenodd"
-                                      d="M19.5271 20C20.0644 20 20.5 20.4356 20.5 20.9729C20.5 21.5101 20.0644 21.9457 19.5271 21.9457L4.47285 21.9457C3.93556 21.9457 3.5 21.5101 3.5 20.9729C3.5 20.4356 3.93556 20 4.47285 20L19.5271 20ZM11 3C11 2.44772 11.4477 2 12 2C12.5523 2 13 2.44772 13 3L13 14.5295L18.5462 8.9833C18.9492 8.58033 19.6026 8.58033 20.0055 8.9833C20.4085 9.38627 20.4085 10.0396 20.0055 10.4426L12.7093 17.7388C12.4762 17.9719 12.1595 18.0701 11.8558 18.0336C11.6342 18.0071 11.4196 17.9088 11.2496 17.7388L3.95333 10.4425C3.55036 10.0396 3.55036 9.38622 3.95333 8.98325C4.3563 8.58028 5.00964 8.58028 5.41261 8.98325L11 14.5706L11 3Z"
-                                    ></path>
-                                  </svg>
-                                  <svg
-                                    width="24"
-                                    height="24"
-                                    viewBox="0 0 24 24"
-                                    fill="none"
-                                    xmlns="http://www.w3.org/2000/svg"
-                                    aria-hidden="true"
-                                    focusable="false"
-                                    class="chakra-icon css-kkfm6j"
-                                  >
-                                    <path
-                                      fill-rule="evenodd"
-                                      clip-rule="evenodd"
-                                      d="M19.5271 20C20.0644 20 20.5 20.4356 20.5 20.9729C20.5 21.5101 20.0644 21.9457 19.5271 21.9457L4.47285 21.9457C3.93556 21.9457 3.5 21.5101 3.5 20.9729C3.5 20.4356 3.93556 20 4.47285 20L19.5271 20ZM11 3C11 2.44772 11.4477 2 12 2C12.5523 2 13 2.44772 13 3L13 14.5295L18.5462 8.9833C18.9492 8.58033 19.6026 8.58033 20.0055 8.9833C20.4085 9.38627 20.4085 10.0396 20.0055 10.4426L12.7093 17.7388C12.4762 17.9719 12.1595 18.0701 11.8558 18.0336C11.6342 18.0071 11.4196 17.9088 11.2496 17.7388L3.95333 10.4425C3.55036 10.0396 3.55036 9.38622 3.95333 8.98325C4.3563 8.58028 5.00964 8.58028 5.41261 8.98325L11 14.5706L11 3Z"
-                                    ></path>
-                                  </svg>
-                                </div>
-                              </div>
-                            </a>
-                          </span>
-                        </div>
-                        <div class="slide__link css-1tvtugv">
-                          <span
-                            class="chakra-link css-p7j81s"
-                            data-group="true"
-                          >
-                            <a
-                              class="chakra-link css-p7j81s"
-                              href="#"
-                              target="_blank"
-                            >
-                              <div class="icon-wrapper css-k54ifn">
-                                <svg
-                                  width="24"
-                                  height="24"
-                                  viewBox="0 0 24 24"
-                                  fill="none"
-                                  xmlns="http://www.w3.org/2000/svg"
-                                  aria-hidden="true"
-                                  focusable="false"
-                                  class="chakra-icon css-1r46jhu"
-                                >
-                                  <path
-                                    fill-rule="evenodd"
-                                    clip-rule="evenodd"
-                                    d="M19.5271 20C20.0644 20 20.5 20.4356 20.5 20.9729C20.5 21.5101 20.0644 21.9457 19.5271 21.9457L4.47285 21.9457C3.93556 21.9457 3.5 21.5101 3.5 20.9729C3.5 20.4356 3.93556 20 4.47285 20L19.5271 20ZM11 3C11 2.44772 11.4477 2 12 2C12.5523 2 13 2.44772 13 3L13 14.5295L18.5462 8.9833C18.9492 8.58033 19.6026 8.58033 20.0055 8.9833C20.4085 9.38627 20.4085 10.0396 20.0055 10.4426L12.7093 17.7388C12.4762 17.9719 12.1595 18.0701 11.8558 18.0336C11.6342 18.0071 11.4196 17.9088 11.2496 17.7388L3.95333 10.4425C3.55036 10.0396 3.55036 9.38622 3.95333 8.98325C4.3563 8.58028 5.00964 8.58028 5.41261 8.98325L11 14.5706L11 3Z"
-                                  ></path>
-                                </svg>
-                                <svg
-                                  width="24"
-                                  height="24"
-                                  viewBox="0 0 24 24"
-                                  fill="none"
-                                  xmlns="http://www.w3.org/2000/svg"
-                                  aria-hidden="true"
-                                  focusable="false"
-                                  class="chakra-icon css-kkfm6j"
-                                >
-                                  <path
-                                    fill-rule="evenodd"
-                                    clip-rule="evenodd"
-                                    d="M19.5271 20C20.0644 20 20.5 20.4356 20.5 20.9729C20.5 21.5101 20.0644 21.9457 19.5271 21.9457L4.47285 21.9457C3.93556 21.9457 3.5 21.5101 3.5 20.9729C3.5 20.4356 3.93556 20 4.47285 20L19.5271 20ZM11 3C11 2.44772 11.4477 2 12 2C12.5523 2 13 2.44772 13 3L13 14.5295L18.5462 8.9833C18.9492 8.58033 19.6026 8.58033 20.0055 8.9833C20.4085 9.38627 20.4085 10.0396 20.0055 10.4426L12.7093 17.7388C12.4762 17.9719 12.1595 18.0701 11.8558 18.0336C11.6342 18.0071 11.4196 17.9088 11.2496 17.7388L3.95333 10.4425C3.55036 10.0396 3.55036 9.38622 3.95333 8.98325C4.3563 8.58028 5.00964 8.58028 5.41261 8.98325L11 14.5706L11 3Z"
-                                  ></path>
-                                </svg>
-                              </div>
-                              <span>Q1 press release</span>
-                            </a>
-                          </span>
-                        </div>
-                      </div> */}
                     </div>
                   </div>
                 </div>
@@ -333,60 +231,6 @@ const CssSite = () => {
                           </a>
                         </span>
                       </span>
-
-                      {/* <div class="slide__links css-15tp3vc">
-                        <div class="slide__link css-1a3d90w">
-                          <span
-                            class="chakra-link css-wfga6a"
-                            data-group="true"
-                          >
-                            <a
-                              class="chakra-link css-wfga6a"
-                              href="#"
-                              tabindex="-1"
-                            >
-                              <span>Read more</span>
-                              <div class="icon-container css-1tu61vr">
-                                <div class="icon-wrapper css-169nrdu">
-                                  <svg
-                                    width="24"
-                                    height="24"
-                                    viewBox="0 0 24 24"
-                                    fill="none"
-                                    xmlns="http://www.w3.org/2000/svg"
-                                    aria-hidden="true"
-                                    focusable="false"
-                                    class="chakra-icon css-19twtfl"
-                                  >
-                                    <path
-                                      fill-rule="evenodd"
-                                      clip-rule="evenodd"
-                                      d="M14.4016 3.9304C13.9986 3.52743 13.3452 3.52743 12.9423 3.9304C12.5393 4.33337 12.5393 4.98671 12.9423 5.38968L18.5363 10.9837H2.93184C2.39455 10.9837 1.95898 11.4192 1.95898 11.9565C1.95898 12.4938 2.39455 12.9294 2.93184 12.9294H18.5362L12.9422 18.5233C12.5393 18.9263 12.5393 19.5796 12.9422 19.9826C13.3452 20.3856 13.9986 20.3856 14.4015 19.9826L21.6978 12.6863C21.8789 12.5052 21.9786 12.2736 21.9969 12.0368C22.0195 11.7466 21.9198 11.4486 21.6978 11.2267L14.4016 3.9304Z"
-                                    ></path>
-                                  </svg>
-                                  <svg
-                                    width="24"
-                                    height="24"
-                                    viewBox="0 0 24 24"
-                                    fill="none"
-                                    xmlns="http://www.w3.org/2000/svg"
-                                    aria-hidden="true"
-                                    focusable="false"
-                                    class="chakra-icon css-vv1bu6"
-                                  >
-                                    <path
-                                      fill-rule="evenodd"
-                                      clip-rule="evenodd"
-                                      d="M14.4016 3.9304C13.9986 3.52743 13.3452 3.52743 12.9423 3.9304C12.5393 4.33337 12.5393 4.98671 12.9423 5.38968L18.5363 10.9837H2.93184C2.39455 10.9837 1.95898 11.4192 1.95898 11.9565C1.95898 12.4938 2.39455 12.9294 2.93184 12.9294H18.5362L12.9422 18.5233C12.5393 18.9263 12.5393 19.5796 12.9422 19.9826C13.3452 20.3856 13.9986 20.3856 14.4015 19.9826L21.6978 12.6863C21.8789 12.5052 21.9786 12.2736 21.9969 12.0368C22.0195 11.7466 21.9198 11.4486 21.6978 11.2267L14.4016 3.9304Z"
-                                    ></path>
-                                  </svg>
-                                </div>
-                              </div>
-                            </a>
-                          </span>
-                        </div>
-                      </div> */}
-
                     </div>
                   </div>
                 </div>

@@ -1,5 +1,4 @@
-import React from "react";
-import InnerBanner from "../../../innerPage/InnerBanner";
+import InnerBanner from "../innerPage/InnerBanner";
 import { Helmet } from "react-helmet-async";
 
 const OilAndGas = () => {
@@ -56,7 +55,7 @@ const OilAndGas = () => {
               <p className="mb-5">
                 <b className="">2D and 3D Seismic Imaging:</b> Captures seismic
                 waves to create a detailed map of geological structures beneath
-                the earth's surface, which helps in identifying potential oil
+                the earth&apos;s surface, which helps in identifying potential oil
                 and gas reservoirs.
               </p>
               <p className="mb-7">
@@ -76,12 +75,12 @@ const OilAndGas = () => {
               </p>
               <p className="mb-5 text-2xl font-medium">Geophysical Services</p>
               <p className="mb-5">
-                <b>Magnetotelluric (MT) Surveying:</b> Measures the earth's
+                <b>Magnetotelluric (MT) Surveying:</b> Measures the earth&apos;s
                 natural electromagnetic field to image geological structures.
               </p>
               <p className="mb-7">
                 <b>Gravity and Magnetic Surveys:</b> Measure variations in the
-                earth's gravitational and magnetic fields to suggest the
+                earth&apos;s gravitational and magnetic fields to suggest the
                 presence of hydrocarbon-bearing formations.
               </p>
               <p className="mb-5 text-2xl font-medium"> Aerial Surveys </p>
@@ -97,7 +96,7 @@ const OilAndGas = () => {
               </p>
               <p className="mb-7">
                 <b>Core Sampling:</b> Extracting rock samples from deep below
-                the earth to analyze the reservoir's properties.
+                the earth to analyze the reservoir&apos;s properties.
               </p>
               <p className="mb-5 text-2xl font-medium">
                 Environmental Impact Assessments
@@ -556,7 +555,7 @@ const OilAndGas = () => {
               Pipeline services in the oil and gas industry are essential for
               the safe and efficient transportation of hydrocarbons from
               production sites to processing facilities and eventually to
-              end-users. Here's a detailed look at the main services provided
+              end-users. Here&apos;s a detailed look at the main services provided
               under this category:
             </p>
             <div>
@@ -595,7 +594,7 @@ const OilAndGas = () => {
               </p>
               <p className="mb-5">
                 <b>In-line Inspection (ILI):</b>
-                Using devices known as "pigs" to inspect the interior of
+                Using devices known as &quot;pigs&quot; to inspect the interior of
                 pipelines for corrosion, deformation, or other irregularities.
               </p>
               <p className="mb-7">
@@ -720,7 +719,7 @@ const OilAndGas = () => {
               broad range of services designed to ensure the optimal
               functioning, safety, and longevity of physical assets and
               infrastructure involved in the extraction, processing, and
-              distribution of oil and gas. Here's a detailed look at the main
+              distribution of oil and gas. Here&apos;s a detailed look at the main
               services provided under this category:
             </p>
             <div>

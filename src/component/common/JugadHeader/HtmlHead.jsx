@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import "./s1.css";
 import "./s2.css";
 import "./s3.css";
@@ -8,11 +8,9 @@ import "./s7.css";
 import "./s8.css";
 import "./s9.css";
 import "./s10.css";
-import "./safari.css";
-import menu1 from "../../assets/menu1.png";
-import close from "../../assets/close.png";
-import singleLogos from "../../assets/singleLogos.png";
-import whiteLogo from "../../assets/whiteLogo.png";
+import close from "../../../assets/close.png";
+import singleLogos from "../../../assets/singleLogos.png";
+import whiteLogo from "../../../assets/whiteLogo.png";
 import { Link, useNavigate } from "react-router-dom";
 
 const HtmlHead = ({
@@ -75,53 +73,53 @@ const HtmlHead = ({
     if (id == 5) {
       const pdfUrl = "/group_geros_2025.pdf";
       window.open(pdfUrl, "_blank");
-    }
-
-    if (navTextColor === id && showDropdown) {
-      const currentScrollY =
-        document.documentElement.scrollTop || window.scrollY;
-      if (currentScrollY === 0) {
-        setScrollBG("");
-        setShowDropdown(false);
-        setNavTextColor(null);
-        document.body.style.overflow = "auto";
-        setTextColor("text-white");
-        setSelectedDropdown(null);
-        console.log(scrollColorBG, "1");
+    } else {
+      if (navTextColor === id && showDropdown) {
+        const currentScrollY =
+          document.documentElement.scrollTop || window.scrollY;
+        if (currentScrollY === 0) {
+          setScrollBG("");
+          setShowDropdown(false);
+          setNavTextColor(null);
+          document.body.style.overflow = "auto";
+          setTextColor("text-white");
+          setSelectedDropdown(null);
+          console.log(scrollColorBG, "1");
+          setMenuOpacity("opacity-0");
+        } else {
+          setScrollBG(scrollColorBG);
+          console.log(scrollColorBG, "2");
+          setShowDropdown(false);
+          setNavTextColor(null);
+          document.body.style.overflow = "auto";
+          setTextColor("text-white");
+          setSelectedDropdown(null);
+          console.log(scrollColorBG, "1");
+          setMenuOpacity("opacity-0");
+        }
+      } else if (navTextColor !== id && showDropdown) {
         setMenuOpacity("opacity-0");
+        console.log("outside settime", navTextColor);
+        setTimeout(() => {
+          setNavTextColor(id);
+          document.body.style.overflow = "hidden";
+          setTextColor("text-slate-600");
+          setSelectedDropdown(id);
+          setShowDropdown(true);
+          setMenuOpacity("opacity-100");
+          setScrollBG("bg-[#1F1F1F]");
+          console.log(scrollColorBG, "2");
+        }, 300); // Adjust the delay to match the CSS transition duration
       } else {
-        setScrollBG(scrollColorBG);
-        console.log(scrollColorBG, "2");
-        setShowDropdown(false);
-        setNavTextColor(null);
-        document.body.style.overflow = "auto";
-        setTextColor("text-white");
-        setSelectedDropdown(null);
-        console.log(scrollColorBG, "1");
-        setMenuOpacity("opacity-0");
-      }
-    } else if (navTextColor !== id && showDropdown) {
-      setMenuOpacity("opacity-0");
-      console.log("outside settime", navTextColor);
-      setTimeout(() => {
+        setMenuOpacity("opacity-100");
         setNavTextColor(id);
         document.body.style.overflow = "hidden";
         setTextColor("text-slate-600");
         setSelectedDropdown(id);
         setShowDropdown(true);
-        setMenuOpacity("opacity-100");
         setScrollBG("bg-[#1F1F1F]");
-        console.log(scrollColorBG, "2");
-      }, 300); // Adjust the delay to match the CSS transition duration
-    } else {
-      setMenuOpacity("opacity-100");
-      setNavTextColor(id);
-      document.body.style.overflow = "hidden";
-      setTextColor("text-slate-600");
-      setSelectedDropdown(id);
-      setShowDropdown(true);
-      setScrollBG("bg-[#1F1F1F]");
-      console.log(scrollColorBG, "3");
+        console.log(scrollColorBG, "3");
+      }
     }
   };
 
@@ -191,7 +189,7 @@ const HtmlHead = ({
   };
 
   const dropDownAbout = [
-    "About geros",
+    "About GEROS",
     "Why we exist",
     "Our Collective History",
     "Our Organisations",
@@ -227,9 +225,10 @@ const HtmlHead = ({
     if (id == 5) {
       const pdfUrl = "/group_geros_2025.pdf";
       window.open(pdfUrl, "_blank");
+    } else {
+      setSecondMenuOpen(!secondMenuOpen);
+      setIndexDropDown(id);
     }
-    setSecondMenuOpen(!secondMenuOpen);
-    setIndexDropDown(id);
   };
   const totalCloseButton = () => {
     setSecondMenuOpen(false);
@@ -396,13 +395,13 @@ const HtmlHead = ({
                             </div>
 
                             <div className=" ">
-                              <div>
+                              <a href="/">
                                 <img
                                   className="w-[100px]"
                                   src={singleLogos}
-                                  alt="aramco logo"
+                                  alt="GEROS logo"
                                 />
-                              </div>
+                              </a>
                             </div>
                           </div>
                         </div>
@@ -441,17 +440,17 @@ const HtmlHead = ({
                   >
                     <div className="w-[15rem] h-8">
                       {geroslogo ? (
-                        <img
+                        <a href="/"><img
                           className="w-[100px]"
                           src={singleLogos}
                           alt="aramco logo"
-                        />
+                        /></a>
                       ) : (
-                        <img
+                        <a href="/"><img
                           className="w-[100px]"
                           src={showDropdown ? singleLogos : whiteLogo}
                           alt="aramco logo"
-                        />
+                        /></a>
                       )}
                     </div>
                   </a>

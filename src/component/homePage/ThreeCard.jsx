@@ -1,11 +1,38 @@
-import React from "react";
-// import ArrowIcon from "../Arrows/ArrowIcon";
 import first from '../../assets/sample6.jpeg'
 import second from '../../assets/sample7.jpeg'
 import therd from '../../assets/sample4.jpg'
 import fourth from '../../assets/sample8.jpeg'
 import fifth from '../../assets/sample9.jpeg'
 import sixth from '../../assets/sample10.jpeg'
+
+const ThreeCard = () => {
+  return (
+    <div>
+      <ThreeCardHead />
+      <div className="">
+        <ThreeCardOnly />
+      </div>
+    </div>
+  );
+};
+
+const ThreeCardHead = () => (
+  <div className="max-w-[71rem] m-auto md:px-6 px-4">
+    <div className="flex lg:flex-row flex-col justify-between items-end gap-6 py-[64px] ">
+      <div className="md:col-span-1 w-full lg:w-[65%]">
+        <p className="text-start   font-medium text-sm uppercase font-section-one">Sectors</p>
+        <p className="text-[40px] pb-[1.2rem] ">
+          Sectors we operate in
+        </p>
+        <p className=" text-[30px]  pb-[1.2rem]">
+          GEROS specializes in a comprehensive array of resources critical to
+          modern infrastructure and technology.
+        </p>
+      </div>
+    </div>
+  </div>
+);
+
 
 const ThreeCardOnly = () => {
   return (
@@ -140,4 +167,5 @@ const ThreeCardOnly = () => {
   );
 };
 
-export default ThreeCardOnly;
+
+export default ThreeCard;

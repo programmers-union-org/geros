@@ -1,14 +1,15 @@
-import React, { useEffect, useRef } from "react";
-import Footer from "./component/footer/Footer";
+import  { useEffect, useRef } from "react";
 import { BrowserRouter, Routes, Route, useLocation } from "react-router-dom";
 import "./App.css";
-import Home from "./page/Home";
-import InnerPage from "./innerPage/InnerPage";
-import InnerHead from "./component/sample/InnerHead";
-import HtmlHead from "./component/sample/HtmlHead";
-import WhyWeExist from "./component/innerComponents/innerAbout/WhyWeExist";  
-import OilAndGas from "./component/innerComponents/innerSectors/OilAndGas";
-import singleLogos from "../src/assets/singleLogos.png"
+import Home from "./pages/Home";
+import Footer from "./component/common/Footer";
+import HtmlHead from "./component/common/JugadHeader/HtmlHead";
+import InnerPage from "./pages/InnerPage";
+import WhyWeExist from "./pages/WhyWeExist";  
+import OilAndGas from "./pages/OilAndGas";
+import Drilling from "./pages/Drilling";
+import EnvironmentalAndSafety from "./pages/EnvironmentalAndSafety";
+import ConsultingAndEngineering from "./pages/ConsultingAndEngineering";
 import menu1 from "../src/assets/menu1.png"
 import menu from "../src/assets/menu.png"
 import { HelmetProvider } from "react-helmet-async";
@@ -48,8 +49,11 @@ const App = () => {
       <Routes>
         <Route path="/" element={<Home/>} />
         <Route path="/:id" element={<InnerPage/>} />
-        <Route path="/oil-and-gas" element={<OilAndGas/>} />
-        <Route path="/why-we-exist" element={<WhyWeExist/>} />
+        {/* <Route path="/why-we-exist" element={<WhyWeExist/>} /> */}
+        <Route path="/services/oil-and-gas" element={<OilAndGas/>} />
+        <Route path="/services/drilling" element={<Drilling/>} />
+        <Route path="/services/environmental-and-safety" element={<EnvironmentalAndSafety/>} />
+        <Route path="/services/consulting-and-engineering" element={<ConsultingAndEngineering/>} />
       </Routes>
       <Footer />
     </BrowserRouter>

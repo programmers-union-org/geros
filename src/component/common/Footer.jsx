@@ -1,5 +1,4 @@
-import React, { useState } from 'react'
-import logo from '../../assets/whiteLogo.png'
+import { useState } from 'react'
 import whiteLogo from "../../assets/whiteLogo.png";
 import { Link, useNavigate } from 'react-router-dom';
 

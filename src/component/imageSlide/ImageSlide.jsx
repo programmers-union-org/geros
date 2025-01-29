@@ -1,11 +1,9 @@
-import React, { useEffect, useState } from "react";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import TimeRange from "../timeRange/TimeRange";
 import Nav from "./Nav";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import WhiteArrow from "../Arrows/WhiteArrow";
 import one from "../../assets/one1.jpg";
 import two from "../../assets/one2.jpg";
 import three from "../../assets/one3.jpg";

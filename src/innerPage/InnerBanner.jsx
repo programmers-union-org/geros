@@ -1,4 +1,4 @@
-import React from 'react';
+
 import innerImage from '../../src/assets/inner.jpg'
 
 const InnerBanner = ({title}) => {
@@ -36,12 +36,12 @@ const InnerBanner = ({title}) => {
               xmlns="http://www.w3.org/2000/svg"
               aria-hidden="true"
               focusable="false"
-              class="chakra-icon css-10x9cef"
+              className="chakra-icon css-10x9cef"
               role="presentation"
             >
               <path
-                fill-rule="evenodd"
-                clip-rule="evenodd"
+                fillRule="evenodd"
+                clipRule="evenodd"
                 d="M9.06094 20.3872C8.65797 20.7902 8.00463 20.7902 7.60166 20.3872C7.1987 19.9842 7.1987 19.3309 7.60166 18.9279L14.1685 12.3611L7.60171 5.79434C7.19875 5.39137 7.19875 4.73803 7.60171 4.33506C8.00468 3.9321 8.65802 3.93209 9.06099 4.33506L16.3572 11.6313C16.5958 11.8698 16.6931 12.1961 16.6493 12.5062C16.6191 12.7201 16.5217 12.9264 16.3572 13.0909L9.06094 20.3872Z"
               ></path>
             </svg>

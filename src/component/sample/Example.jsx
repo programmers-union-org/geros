@@ -1,8 +1,6 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import styled, { keyframes } from "styled-components";
 import Nav from "../imageSlide/Nav";
-import WhiteArrow from "../Arrows/WhiteArrow";
-import TimeRange from "../timeRange/TimeRange";
 import one from "../../assets/one1.jpg";
 import two from "../../assets/one2.jpg";
 import three from "../../assets/one3.jpg";

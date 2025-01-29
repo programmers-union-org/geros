@@ -1,4 +1,3 @@
-import React from 'react'
 import about from '../../assets/about.jpg'
 import ArrowIconWhite from '../Arrows/ArrowIconWhite';
 import { Link } from 'react-router-dom';

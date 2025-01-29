@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import "./s1.css";
 import "./s2.css";
 import "./s3.css";
@@ -152,7 +152,7 @@ const InnerHead = () => {
   }, [prevScrollY]);
 
   const dropDownAbout = [
-    "About geros",
+    "About GEROS",
     "Why we exist",
     "Our Collective History",
     "Our Organisations",
