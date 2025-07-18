@@ -499,7 +499,7 @@ const HtmlHead = ({
             {geroslogo ? (
               <img className="w-[100px]" src={gerosLogo} alt="aramco logo" />
             ) : (
-              <img className="w-[100px]" src={gerosLogo} alt="aramco logo" />
+              <img className="w-[0px] " src={gerosLogo} alt="aramco logo" />
             )}
           </div>
         </header>
