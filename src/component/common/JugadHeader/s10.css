@@ -594,9 +594,10 @@ body.nav--open .css-njx72r .aramcocom__header-bg {
 }
 @media screen and (min-width: 48rem) {
   .css-xz8nlg .pagination__wrapper .splide__list .splide__slide {
-    width: calc(25% - 0.9375rem);
+    width: calc(20% - 2.40rem); /* 100% / 5 slides */
   }
 }
+
 .css-xz8nlg .pagination__wrapper .splide__list .splide__slide + .splide__slide {
   -webkit-margin-start: var(--chakra-space-2);
   margin-inline-start: var(--chakra-space-2);
