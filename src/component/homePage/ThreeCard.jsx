@@ -17,14 +17,14 @@ const ThreeCard = () => {
 };
 
 const ThreeCardHead = () => (
-  <div className="max-w-[71rem] m-auto md:px-6 px-4">
+  <div className="max-w-[71rem] m-auto md:px-0 px-4">
     <div className="flex lg:flex-row flex-col justify-between items-end gap-6 py-[64px] ">
       <div className="md:col-span-1 w-full lg:w-[65%]">
         <p className="text-start   font-medium text-sm uppercase font-section-one">Sectors</p>
-        <p className="text-[40px] pb-[1.2rem] ">
+        <p className="text-[40px] pb-[1.2rem] font-extrabold ">
           Sectors we operate in
         </p>
-        <p className=" text-[30px]  pb-[1.2rem]">
+        <p className=" text-[25px]  pb-[1.2rem]">
           GEROS specializes in a comprehensive array of resources critical to
           modern infrastructure and technology.
         </p>
@@ -47,8 +47,8 @@ const ThreeCardOnly = () => {
               className="  w-full md:w-[352px] h-auto md:h-[235px]  transition-transform duration-1000 hover:scale-110 "
             />
           </div>
-          <p style={{fontFamily:'ManifaPro2'  }} className="text-[30px] font-light pt-2">Precious Metals and Gemstones</p>
-          <p style={{fontFamily:'ManifaPro2'  }} className="text-[22px] font-light pt-2">
+          <p style={{fontFamily:'ManifaPro2'  }} className="text-[30px] font-semibold pt-2">Precious Metals and Gemstones</p>
+          <p style={{fontFamily:'ManifaPro2'  }} className="text-[18px] font-light pt-2">
             Our offerings include silver, platinum, palladium, and diamonds,
             which are indispensable in jewelry, industrial applications, and
             investment commodities.
@@ -68,8 +68,8 @@ const ThreeCardOnly = () => {
               className="transition-transform duration-1000  w-full md:w-[352px] h-auto md:h-[235px]  hover:scale-110 "
             />
           </div>
-          <p style={{fontFamily:'ManifaPro2'  }} className="text-[30px] font-light pt-2">Minerals and Metals</p>
-          <p style={{fontFamily:'ManifaPro2'  }} className="text-[22px] font-light pt-2">
+          <p style={{fontFamily:'ManifaPro2'  }} className="text-[30px] font-semibold pt-2">Minerals and Metals</p>
+          <p style={{fontFamily:'ManifaPro2'  }} className="text-[18px] font-light pt-2">
             From gold and copper to lithium and rare earth elements, our
             materials are pivotal in everything from battery production to
             electronic devices.
@@ -90,8 +90,8 @@ const ThreeCardOnly = () => {
               className=" w-full md:w-[352px] h-auto md:h-[235px]  transition-transform duration-1000 hover:scale-110 "
             />
           </div>
-          <p style={{fontFamily:'ManifaPro2'  }} className="font-light text-[30px] pt-2">Fossil Fuels</p>
-          <p style={{fontFamily:'ManifaPro2'  }} className="text-[22px] font-light  pt-2 ">
+          <p style={{fontFamily:'ManifaPro2'  }} className=" text-[30px] pt-2 font-semibold">Fossil Fuels</p>
+          <p style={{fontFamily:'ManifaPro2'  }} className="text-[18px] font-light  pt-2 ">
              Including oil, natural gas, and coal, we provide essential energy
             sources that power industries worldwide.
           </p>
@@ -110,8 +110,8 @@ const ThreeCardOnly = () => {
               className=" w-full md:w-[352px] h-auto md:h-[235px]  transition-transform duration-1000 hover:scale-110 "
             />
           </div>
-          <p style={{fontFamily:'ManifaPro2'  }} className="text-[30px] font-light pt-2">Industrial Minerals</p>
-          <p style={{fontFamily:'ManifaPro2'  }} className="text-[22px] font-light pt-2">
+          <p style={{fontFamily:'ManifaPro2'  }} className="text-[30px] font-semibold pt-2">Industrial Minerals</p>
+          <p style={{fontFamily:'ManifaPro2'  }} className="text-[18px] font-light pt-2">
             We source materials like phosphates, potash, salt, and quartz,
             essential for agriculture, manufacturing, and construction.
           </p>
@@ -130,10 +130,10 @@ const ThreeCardOnly = () => {
               className="transition-transform duration-1000 hover:scale-110  w-full md:w-[352px] h-auto md:h-[235px] "
             />
           </div>
-          <p style={{fontFamily:'ManifaPro2'  }} className="text-[30px] font-light pt-2">
+          <p style={{fontFamily:'ManifaPro2'  }} className="text-[30px] font-semibold pt-2">
             Energy Commodities Beyond Fossil Fuels
           </p>
-          <p style={{fontFamily:'ManifaPro2'  }} className="text-[22px] font-light pt-2">
+          <p style={{fontFamily:'ManifaPro2'  }} className="text-[18px] font-light pt-2">
             We invest in the future with uranium for nuclear energy and biofuels
             for greener alternatives.
           </p>
@@ -151,8 +151,8 @@ const ThreeCardOnly = () => {
               className="  w-full md:w-[352px] h-auto md:h-[235px]  transition-transform duration-1000 hover:scale-110 "
             />
           </div>
-          <p style={{fontFamily:'ManifaPro2'  }} className="text-[30px] font-light pt-2">Water</p>
-          <p style={{fontFamily:'ManifaPro2'  }} className="text-[22px] font-light pt-2">
+          <p style={{fontFamily:'ManifaPro2'  }} className="text-[30px] font-semibold pt-2">Water</p>
+          <p style={{fontFamily:'ManifaPro2'  }} className="text-[18px] font-light pt-2">
             Recognizing water as a fundamental resource, we focus on its
             sustainable use and management to support life and economic
             development.

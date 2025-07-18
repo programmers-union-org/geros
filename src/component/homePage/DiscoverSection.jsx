@@ -43,7 +43,7 @@ const DiscoverSection = () => {
                 <div className='text-white mt-4'>
                   <h6 style={{fontFamily:'Ghawar',fontWeight:500}} className='font-medium tracking-normal text-sm uppercase font-section-one'>Gold and natural resources </h6>
                 </div>
-                <h3 style={{fontFamily:'Ghawar',fontWeight:500}} className='md:text-lg text-xl text-white leading-5'>Unlocking Global Opportunities in Gold and Resource Markets</h3>
+                <h3 style={{fontFamily:'Ghawar',fontWeight:500}} className='text-sm text-white leading-5'>Unlocking Global Opportunities in Gold and Resource Markets</h3>
               </div>
             </a>
             <a href='/services/oil-and-gas' className='relative md:w-[50%] w-full'>
@@ -51,7 +51,7 @@ const DiscoverSection = () => {
                 <div className='text-white mt-4'>
                   <h6 style={{fontFamily:'Ghawar',fontWeight:500}} className='font-medium tracking-normal text-sm uppercase font-section-one'>Oil and gas exploration </h6>
                 </div>
-                <h3 style={{fontFamily:'Ghawar',fontWeight:500}} className='md:text-lg text-xl text-white leading-5'>Resources that power industries worldwide </h3>
+                <h3 style={{fontFamily:'Ghawar',fontWeight:500}} className='text-sm text-white leading-5'>Resources that power industries worldwide </h3>
               </div>
             </a>
             <a href='/services/drilling' className='relative md:w-[50%] w-full'>
@@ -59,7 +59,7 @@ const DiscoverSection = () => {
                 <div className='text-white mt-4'>
                   <h6 style={{fontFamily:'Ghawar',fontWeight:500}} className='font-medium tracking-normal text-sm uppercase font-section-one'>Drilling services </h6>
                 </div>
-                <h3 style={{fontFamily:'Ghawar',fontWeight:500}} className='md:text-lg text-xl leading-5 text-white'>Maximise Recovery. minimise environmental footprint </h3>
+                <h3 style={{fontFamily:'Ghawar',fontWeight:500}} className='text-sm leading-5 text-white'>Maximise Recovery. minimise environmental footprint </h3>
               </div>
             </a>
             <a href='/services/environmental-and-safety' className='relative md:w-[50%] w-full'>
@@ -67,7 +67,7 @@ const DiscoverSection = () => {
                 <div className='text-white mt-4'>
                   <h6 style={{fontFamily:'Ghawar',fontWeight:500}} className='font-medium tracking-normal text-sm uppercase font-section-one'>Environmental and safety service </h6>
                 </div>
-                <h3 style={{fontFamily:'Ghawar',fontWeight:500}} className='md:text-lg text-xl mt-3 leading-5 text-white'>Environmental and safety service </h3>
+                <h3 style={{fontFamily:'Ghawar',fontWeight:500}} className='text-sm mt-3 leading-5 text-white'>Environmental and safety service </h3>
               </div>
             </a>
             <a href='/services/consulting-and-engineering' className='relative md:w-[50%] w-full'>
@@ -75,7 +75,7 @@ const DiscoverSection = () => {
                 <div className='text-white mt-4'>
                   <h6 style={{fontFamily:'Ghawar',fontWeight:500}} className='font-medium tracking-normal text-sm uppercase font-section-one'>Consulting and Engineering </h6>
                 </div>
-                <h3 style={{fontFamily:'Ghawar',fontWeight:500}} className='md:text-lg text-xl mt-3 leading-5 text-white'>Consulting and Engineering services</h3>
+                <h3 style={{fontFamily:'Ghawar',fontWeight:500}} className='text-sm mt-3 leading-5 text-white'>Consulting and Engineering services</h3>
               </div>
             </a>
           </div>
@@ -99,11 +99,11 @@ const DiscoverSection = () => {
 
 const DiscoverHead = () => {
   return (
-    <div className="max-w-[71rem] m-auto pt-20 md:pl-3">
+    <div className="max-w-[71rem] m-auto pt-20 md:pl-0">
       <h6  className="text-start   font-medium text-sm uppercase font-section-one">
         OUR SERVICES
       </h6>
-      <h3  className="text-start mt-6 font-medium text-4xl md:w-3/4 w-full capilaze  ">
+      <h3  className="text-start mt-6 font-medium text-2xl md:text-3xl md:w-3/4 w-full capilaze  ">
         GEROS, Global Energy & Resources Organisations, is a free-market
         consortium specialising in a wide range of energy and resource sectors.
       </h3>

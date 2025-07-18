@@ -2,7 +2,7 @@ import Banner from "../component/homePage/Banner";
 import DiscoverSection from "../component/homePage/DiscoverSection";
 import ThreeCard from "../component/homePage/ThreeCard";
 import AboutBg from "../component/homePage/AboutBg";
-import VideoSection from "../component/homePage/VideoSection";
+// import VideoSection from "../component/homePage/VideoSection";
 import PdfReactPdf from "../component/homePage/PdfReactPdf";
 
 const Home = () => {
@@ -11,7 +11,7 @@ const Home = () => {
       <Banner />
       <DiscoverSection />
       <ThreeCard />
-      <VideoSection />
+      {/* <VideoSection /> */}
       <PdfReactPdf src="/group_geros_2025.pdf" />
       <AboutBg />
     </div>

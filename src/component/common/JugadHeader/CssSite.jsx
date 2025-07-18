@@ -111,7 +111,7 @@ const CssSite = () => {
                     />
                   </div>
                   <div className="slide__content css-st6rvq">
-                    <div className="css-19va5fc">
+                    <div className="css-19va5fc ">
                       <div className="slide__trumpet css-rszk63">
                         <span className="chakra-link css-1vdp24e">
                           <a href="#" target="_blank">
@@ -131,8 +131,9 @@ const CssSite = () => {
                             href="#"
                             tabIndex="-1"
                           >
-                            <h2 className="chakra-heading css-19u3rc4">
-                            Unlocking Global Opportunities in Gold and Resource Markets
+                            <h2 className="chakra-heading css-19u3rc4 text-5xl">
+                              Unlocking Global Opportunities in Gold and
+                              Resource Markets
                             </h2>
                           </a>
                         </span>
@@ -209,7 +210,7 @@ const CssSite = () => {
                             href="#"
                             target="_blank"
                           >
-                            <h1 className="chakra-heading css-19u3rc4">
+                            <h1 className="chakra-heading css-19u3rc4 text-5xl">
                               Resources that power industries worldwide
                             </h1>
                           </a>
@@ -278,7 +279,7 @@ const CssSite = () => {
                             href="#"
                             tabIndex="-1"
                           >
-                            <h2 className="chakra-heading css-19u3rc4">
+                            <h2 className="chakra-heading css-19u3rc4 text-5xl">
                               Maximize Recovery. Minimize environmental
                               footprint
                             </h2>
@@ -349,7 +350,7 @@ const CssSite = () => {
                             href="#"
                             tabIndex="-1"
                           >
-                            <h2 className="chakra-heading css-19u3rc4">
+                            <h2 className="chakra-heading css-19u3rc4 text-5xl">
                               Installation and maintenance of production
                               platforms and equipment
                             </h2>
@@ -419,7 +420,7 @@ const CssSite = () => {
                             href="#"
                             tabIndex="-1"
                           >
-                            <h2 className="chakra-heading css-19u3rc4">
+                            <h2 className="chakra-heading css-19u3rc4 text-5xl">
                               How can we engineer a better future
                             </h2>
                           </a>
@@ -469,7 +470,7 @@ const CssSite = () => {
                   >
                     <div className="css-3um24x" onMouseLeave={handleMouseLeave}>
                       <p
-                        className={`chakra-text css-bxwo5k ${
+                        className={`chakra-text css-bxwo5k text-[0.69rem] ${
                           isHovered == 1 ? "opacity-100" : "opacity-50"
                         }`}
                         onMouseEnter={() => handleMouseEnter(1)}
@@ -534,7 +535,7 @@ const CssSite = () => {
                   >
                     <div className="css-3um24x" onMouseLeave={handleMouseLeave}>
                       <p
-                        className={`chakra-text css-bxwo5k ${
+                        className={`chakra-text css-bxwo5k text-[0.69rem] ${
                           isHovered == 2 ? "opacity-100" : "opacity-50"
                         }`}
                         onMouseEnter={() => handleMouseEnter(2)}
@@ -599,7 +600,7 @@ const CssSite = () => {
                   >
                     <div className="css-3um24x" onMouseLeave={handleMouseLeave}>
                       <p
-                        className={`chakra-text css-bxwo5k ${
+                        className={`chakra-text css-bxwo5k text-[0.69rem] ${
                           isHovered == 3 ? "opacity-100" : "opacity-50"
                         }`}
                         onMouseEnter={() => handleMouseEnter(3)}
@@ -664,7 +665,7 @@ const CssSite = () => {
                   >
                     <div className="css-3um24x" onMouseLeave={handleMouseLeave}>
                       <p
-                        className={`chakra-text css-bxwo5k ${
+                        className={`chakra-text css-bxwo5k text-[0.69rem] ${
                           isHovered == 4 ? "opacity-100" : "opacity-50"
                         }`}
                         onMouseEnter={() => handleMouseEnter(4)}
@@ -729,7 +730,7 @@ const CssSite = () => {
                   >
                     <div className="css-3um24x" onMouseLeave={handleMouseLeave}>
                       <p
-                        className={`chakra-text css-clbvj9 ${
+                        className={`chakra-text css-clbvj9 text-[0.69rem] ${
                           isHovered == 5 ? "opacity-100" : "opacity-50"
                         }`}
                         onMouseEnter={() => handleMouseEnter(5)}

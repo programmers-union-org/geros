@@ -62,11 +62,11 @@ export default function PdfReactPdf({ src }) {
         </Document>
       </div>
       <div className="flex items-center justify-between gap-4 my-8">
-        <a onClick={prevPage} className="inline-block px-3 py-2 text-xs bg-gray-600 text-white font-medium rounded-lg shadow-md hover:bg-black transition duration-200">Previous</a>
+        <a onClick={prevPage} className="inline-block cursor-pointer px-3 py-2 text-xs bg-gray-600 text-white font-medium rounded-lg shadow-md hover:bg-black transition duration-200">Previous</a>
         <p className="text-gray-700 font-medium">
           Page {pageNumber} of {numPages ?? "..."}
         </p>
-        <a onClick={nextPage} className="inline-block px-3 py-2 text-xs bg-gray-600 text-white font-medium rounded-lg shadow-md hover:bg-black transition duration-200">Next</a>
+        <a onClick={nextPage} className="inline-block cursor-pointer px-3 py-2 text-xs bg-gray-600 text-white font-medium rounded-lg shadow-md hover:bg-black transition duration-200">Next</a>
       </div>
     </div>
   );

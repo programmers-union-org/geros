@@ -36,8 +36,8 @@ const AboutBg = () => {
 
   return (
     <ParallaxProvider speed={100}>
-    <div className='mt-28'>
-          <div className="bg-black relative z-2">
+    <div className=''>
+          <div className="bg-black relative z-2 mb-1">
       <a href="/en/about-us">
         <div style={styles.container}>
           <div style={styles.overlay}></div>

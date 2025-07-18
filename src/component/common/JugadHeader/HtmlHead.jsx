@@ -10,6 +10,7 @@ import "./s9.css";
 import "./s10.css";
 import close from "../../../assets/close.png";
 import singleLogos from "../../../assets/singleLogos.png";
+import gerosLogo from "../../../assets/geros-logo.png";
 import whiteLogo from "../../../assets/whiteLogo.png";
 import { Link, useNavigate } from "react-router-dom";
 
@@ -259,7 +260,7 @@ const HtmlHead = ({
       {/* <div>rrrrrrrrrrrrrrrrrr</div>
           <div>rrrrrrrrrrrrrrrr</div> */}
       <header
-        className={`aramcocom__header element hi hidden lg:block ${navHeight} css-njx72r ${scrollNav} ${scrollBG} ${
+        className={`aramcocom__header  element hi hidden lg:block ${navHeight} css-njx72r ${scrollNav} ${scrollBG} ${
           isVisible
             ? "translate-y-0 opacity-100"
             : "-translate-y-full opacity-0"
@@ -398,8 +399,8 @@ const HtmlHead = ({
                             <div className=" ">
                               <a href="/">
                                 <img
-                                  className="w-[100px]"
-                                  src={singleLogos}
+                                  className="w-[100px] "
+                                  src={gerosLogo}
                                   alt="GEROS logo"
                                 />
                               </a>
@@ -439,19 +440,25 @@ const HtmlHead = ({
                     href="#"
                     title="Aramco"
                   >
-                    <div className="w-[15rem] h-8">
+                    <div className="w-[10rem] h-10">
                       {geroslogo ? (
-                        <a href="/"><img
-                          className="w-[100px]"
-                          src={singleLogos}
-                          alt="aramco logo"
-                        /></a>
+                        <a href="/">
+                          <img
+                            className="w-[160px] "
+                            src={gerosLogo}
+                            alt="aramco logo"
+                          />
+                        </a>
                       ) : (
-                        <a href="/"><img
-                          className="w-[100px]"
-                          src={showDropdown ? singleLogos : whiteLogo}
-                          alt="aramco logo"
-                        /></a>
+                        <a href="/">
+                          {showDropdown && (
+                            <img
+                              className="w-[100px]"
+                              src={gerosLogo}
+                              alt="aramco logo"
+                            />
+                          )}
+                        </a>
                       )}
                     </div>
                   </a>
@@ -490,9 +497,9 @@ const HtmlHead = ({
             {/* <img className="w-auto h-6" src={geroslogo} alt="menu" /> */}
 
             {geroslogo ? (
-              <img className="w-[100px]" src={singleLogos} alt="aramco logo" />
+              <img className="w-[100px]" src={gerosLogo} alt="aramco logo" />
             ) : (
-              <img className="w-[100px]" src={whiteLogo} alt="aramco logo" />
+              <img className="w-[100px]" src={gerosLogo} alt="aramco logo" />
             )}
           </div>
         </header>
