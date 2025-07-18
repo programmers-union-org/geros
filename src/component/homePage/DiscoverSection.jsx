@@ -3,6 +3,7 @@ import product from '../../assets/product.jpg';
 import oil from '../../assets/oil.jpeg';
 import supplay from '../../assets/supplay.jpg';
 import drilling from '../../assets/drilling.jpg';
+import gold from '../../assets/gold.webp';
 
 const DiscoverSection = () => {
   const scrollLineRef = useRef(null);
@@ -37,6 +38,14 @@ const DiscoverSection = () => {
       <div className='scroll-container-wrapper relative max-w-[75rem] m-auto pt-16'>
         <div ref={scrollContainerRef} id='scrollCardSection' className='scrollCardSection overflow-x-scroll lg:overflow-hidden' style={{ scrollbarWidth: 'none' }}>
           <div className='flex flex-row gap-x-4 gap-y-5 w-[1250px] lg:w-full p-3'>
+          <a href='/services/gold-and-natural-resources' className='relative md:w-[50%] w-full'>
+              <div id='arrowanimaiton' style={{ backgroundImage: `linear-gradient(0deg, rgba(20,20,20,1) 1%, rgba(0,212,255,0) 100%) ,url(${gold})`, backgroundSize: "cover", backgroundColor: 'black', backgroundPosition: "center", borderRadius: '1.125rem' }} className='p-4 h-[25rem] bg-black rounded-4xl flex flex-col justify-between hover:scale-105 transition-transform duration-300'>
+                <div className='text-white mt-4'>
+                  <h6 style={{fontFamily:'Ghawar',fontWeight:500}} className='font-medium tracking-normal text-sm uppercase font-section-one'>Gold and natural resources </h6>
+                </div>
+                <h3 style={{fontFamily:'Ghawar',fontWeight:500}} className='md:text-lg text-xl text-white leading-5'>Unlocking Global Opportunities in Gold and Resource Markets</h3>
+              </div>
+            </a>
             <a href='/services/oil-and-gas' className='relative md:w-[50%] w-full'>
               <div id='arrowanimaiton' style={{ backgroundImage: `linear-gradient(0deg, rgba(20,20,20,1) 1%, rgba(0,212,255,0) 100%) ,url(${oil})`, backgroundSize: "cover", backgroundColor: 'black', backgroundPosition: "center", borderRadius: '1.125rem' }} className='p-4 h-[25rem] bg-black rounded-4xl flex flex-col justify-between hover:scale-105 transition-transform duration-300'>
                 <div className='text-white mt-4'>
