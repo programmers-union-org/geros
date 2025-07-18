@@ -13,6 +13,7 @@ import ConsultingAndEngineering from "./pages/ConsultingAndEngineering";
 import menu1 from "../src/assets/menu1.png"
 import menu from "../src/assets/menu.png"
 import { HelmetProvider } from "react-helmet-async";
+import Goldandnaturalresources from "./pages/Goldandnaturalresources";
 
 const ScrollProgress = () => {
   const scrollLineRef = useRef(null);
@@ -50,10 +51,14 @@ const App = () => {
         <Route path="/" element={<Home/>} />
         <Route path="/:id" element={<InnerPage/>} />
         {/* <Route path="/why-we-exist" element={<WhyWeExist/>} /> */}
-        <Route path="/services/oil-and-gas" element={<OilAndGas/>} />
-        <Route path="/services/drilling" element={<Drilling/>} />
-        <Route path="/services/environmental-and-safety" element={<EnvironmentalAndSafety/>} />
-        <Route path="/services/consulting-and-engineering" element={<ConsultingAndEngineering/>} />
+        {/* all /services/... routes grouped */}
+        <Route path="services">
+          <Route path="gold-and-natural-resources" element={<Goldandnaturalresources />} />
+          <Route path="oil-and-gas"                element={<OilAndGas />} />
+          <Route path="drilling"                   element={<Drilling />} />
+          <Route path="environmental-and-safety"   element={<EnvironmentalAndSafety />} />
+          <Route path="consulting-and-engineering" element={<ConsultingAndEngineering />} />
+        </Route>
       </Routes>
       <Footer />
     </BrowserRouter>

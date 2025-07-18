@@ -8,44 +8,47 @@ body{
 
 @font-face {
   font-family: 'ManifaPro2';
-  src: url('./font//pro//ManifaPro2_2.224-Bold.otf') format('otf');
-  src: url('./font/pro/ManifaPro2_2.224-BoldHiddenTashkeel.otf') format('otf');
-  src: url('./font/pro/ManifaPro2_2.224-BoldItalic.otf') format('otf');
-  src: url('./font/pro/ManifaPro2_2.224-Hefty.otf') format('otf');
-  src: url('./font/pro/ManifaPro2_2.224-HeftyHiddenTashkeel.otf') format('otf');
-  src: url('./font/pro/ManifaPro2_2.224-HeftyItalic.otf') format('otf');
-  src: url('./font/pro/ManifaPro2_2.224-Light.otf') format('otf');
-  src: url('./font/pro/ManifaPro2_2.224-LightHiddenTashkeel.otf') format('otf');
-  src: url('./font/pro/ManifaPro2_2.224-LightItalic.otf') format('otf');
-  src: url('./font/pro/ManifaPro2_2.224-Regular.otf') format('otf');
-  src: url('./font/pro/ManifaPro2_2.224-RegularHiddenTashkeel.otf') format('otf');
-  src: url('./font/pro/ManifaPro2_2.224-RegularItalic.otf') format('otf');
-  src: url('./font/pro/ManifaPro2_2.224-SemiBold.otf') format('otf');
-  src: url('./font/pro/ManifaPro2_2.224-SemiBoldHiddenTashkeel.otf') format('otf');
-  src: url('./font/pro/ManifaPro2_2.224-SemiBoldItalic.otf') format('otf');
-  src: url('./font/pro/ManifaPro2_2.224-Thin.otf') format('otf');
-  src: url('./font/pro/ManifaPro2_2.224-ThinHiddenTashkeel.otf') format('otf');
-  src: url('./font/pro/ManifaPro2_2.224-ThinItalic.otf') format('otf');
-  src: url('./font/pro/ManifaPro2_2.224\ Variable.ttf') format('otf');
+  src: url('./font//pro//ManifaPro2_2.224-Bold.otf') format('opentype');
+  src: url('./font/pro/ManifaPro2_2.224-BoldHiddenTashkeel.otf') format('opentype');
+  src: url('./font/pro/ManifaPro2_2.224-BoldItalic.otf') format('opentype');
+  src: url('./font/pro/ManifaPro2_2.224-Hefty.otf') format('opentype');
+  src: url('./font/pro/ManifaPro2_2.224-HeftyHiddenTashkeel.otf') format('opentype');
+  src: url('./font/pro/ManifaPro2_2.224-HeftyItalic.otf') format('opentype');
+  src: url('./font/pro/ManifaPro2_2.224-Light.otf') format('opentype');
+  src: url('./font/pro/ManifaPro2_2.224-LightHiddenTashkeel.otf') format('opentype');
+  src: url('./font/pro/ManifaPro2_2.224-LightItalic.otf') format('opentype');
+  src: url('./font/pro/ManifaPro2_2.224-Regular.otf') format('opentype');
+  src: url('./font/pro/ManifaPro2_2.224-RegularHiddenTashkeel.otf') format('opentype');
+  src: url('./font/pro/ManifaPro2_2.224-RegularItalic.otf') format('opentype');
+  src: url('./font/pro/ManifaPro2_2.224-SemiBold.otf') format('opentype');
+  src: url('./font/pro/ManifaPro2_2.224-SemiBoldHiddenTashkeel.otf') format('opentype');
+  src: url('./font/pro/ManifaPro2_2.224-SemiBoldItalic.otf') format('opentype');
+  src: url('./font/pro/ManifaPro2_2.224-Thin.otf') format('opentype');
+  src: url('./font/pro/ManifaPro2_2.224-ThinHiddenTashkeel.otf') format('opentype');
+  src: url('./font/pro/ManifaPro2_2.224-ThinItalic.otf') format('opentype');
+  src: url('./font/pro/ManifaPro2_2.224\ Variable.ttf') format('opentype');
+  font-display: swap;
 }
 
 @font-face {
   font-family: 'Ghawar';
-  src: url('./font/ghawar/Ghawar_1.311-Black.otf') format('otf');
-  src: url('./font/ghawar/Ghawar_1.311-Black\ Italic.otf') format('otf');
-  src: url('./font/ghawar/Ghawar_1.311-Bold.otf') format('otf');
-  src: url('./font/ghawar/Ghawar_1.311-Bold\ Italic.otf') format('otf');
-  src: url('./font/ghawar/Ghawar_1.311-Hairline.otf') format('otf');
-  src: url('./font/ghawar/Ghawar_1.311-Hairline\ Italic.otf') format('otf');
-  src: url('./font/ghawar/Ghawar_1.311-Heavy.otf') format('otf');
-  src: url('./font/ghawar/Ghawar_1.311-Heavy\ Italic.otf') format('otf');
-  src: url('./font/ghawar/Ghawar_1.311-Hefty.otf') format('otf');
-  src: url('./font/ghawar/Ghawar_1.311-Hefty\ Italic.otf') format('otf');
-  src: url('./font/ghawar/Ghawar_1.311-Light.otf') format('otf');
-  src: url('./font/ghawar/Ghawar_1.311-Light\ Italic.otf') format('otf');
+  src: url('./font/ghawar/Ghawar_1.311-Black.otf') format('opentype');
+  src: url('./font/ghawar/Ghawar_1.311-Black\ Italic.otf') format('opentype');
+  src: url('./font/ghawar/Ghawar_1.311-Bold.otf') format('opentype');
+  src: url('./font/ghawar/Ghawar_1.311-Bold\ Italic.otf') format('opentype');
+  src: url('./font/ghawar/Ghawar_1.311-Hairline.otf') format('opentype');
+  src: url('./font/ghawar/Ghawar_1.311-Hairline\ Italic.otf') format('opentype');
+  src: url('./font/ghawar/Ghawar_1.311-Heavy.otf') format('opentype');
+  src: url('./font/ghawar/Ghawar_1.311-Heavy\ Italic.otf') format('opentype');
+  src: url('./font/ghawar/Ghawar_1.311-Hefty.otf') format('opentype');
+  src: url('./font/ghawar/Ghawar_1.311-Hefty\ Italic.otf') format('opentype');
+  src: url('./font/ghawar/Ghawar_1.311-Light.otf') format('opentype');
+  src: url('./font/ghawar/Ghawar_1.311-Light\ Italic.otf') format('opentype');
+  font-display: swap;
 }
 .font-section-one{
   font-family: 'Ghawar', sans-serif;
+  font-display: swap;
 }
 
 
@@ -60,6 +63,7 @@ body{
   position: fixed;
   z-index: 99;
   transition: 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+  
 }
 /* scroll time set rangebar  */
 

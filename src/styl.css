@@ -2,43 +2,51 @@
     font-family: 'ManifaPro2';
     src: url('./font/pro/ManifaPro2_2.224-Bold.otf') format('opentype');
     font-style: normal;
+    font-display: swap;
   }
 @font-face {
     font-family: 'ManifaPro2';
     src: url('./font/pro/ManifaPro2_2.224-BoldHiddenTashkeel.otf') format('opentype');
     font-style: normal;
+    font-display: swap;
   }
 @font-face {
     font-family: 'ManifaPro2';
     src: url('./font/pro/ManifaPro2_2.224-BoldItalic.otf') format('opentype');
     font-style: normal;
+    font-display: swap;
   }
 @font-face {
     font-family: 'ManifaPro2';
     src: url('./font/pro/ManifaPro2_2.224-Hefty.otf') format('opentype');
     font-style: normal;
+    font-display: swap;
   }
 @font-face {
     font-family: 'ManifaPro2';
     src: url('./font/pro/ManifaPro2_2.224-HeftyHiddenTashkeel.otf') format('opentype');
     font-style: normal;
+    font-display: swap;
   }
 
 @font-face {
     font-family: 'ManifaPro2';
     src: url('./font/pro/ManifaPro2_2.224-Light.otf') format('opentype');
     font-style: normal;
+    font-display: swap;
   }
 @font-face {
     font-family: 'ManifaPro2';
     src: url('./font/pro/ManifaPro2_2.224-LightHiddenTashkeel.otf') format('opentype');
     font-style: normal;
+    font-display: swap;
   }
 
 @font-face {
     font-family: 'ManifaPro2';
     src: url('./font/pro/ManifaPro2_2.224-Regular.otf') format('opentype');
     font-style: normal;
+    font-display: swap;
   }
 @font-face {
     font-family: 'ManifaPro2';
@@ -55,6 +63,7 @@
     font-family: 'ManifaPro2';
     src: url('./font/pro/ManifaPro2_2.224-SemiBoldHiddenTashkeel.otf') format('opentype');
     font-style: normal;
+    font-display: swap;
   }
 
 @font-face {
@@ -68,6 +77,7 @@
     src: url('./font/pro/ManifaPro2_2.224-ThinHiddenTashkeel.otf') format('opentype');
     font-weight: 300;
     font-style: normal;
+    font-display: swap;
   }
 
 @font-face {
@@ -84,21 +94,25 @@
     font-family: 'Ghawar';
     src: url('./font/ghawar/Ghawar_1.311-Black.otf') format('opentype');
     font-style: normal;
+    font-display: swap;
   }
 @font-face {
     font-family: 'Ghawar';
     src: url('./font/ghawar/Ghawar_1.311-Black\ Italic.otf') format('opentype');
     font-style: normal;
+    font-display: swap;
   }
 @font-face {
     font-family: 'Ghawar';
     src: url('./font/ghawar/Ghawar_1.311-Bold.otf') format('opentype');
     font-style: normal;
+    font-display: swap;
   }
 @font-face {
     font-family: 'Ghawar';
     src: url('./font/ghawar/Ghawar_1.311-Bold\ Italic.otf') format('opentype');
     font-style: normal;
+    font-display: swap;
   }
 @font-face {
     font-family: 'Ghawar';
@@ -109,6 +123,7 @@
     font-family: 'Ghawar';
     src: url('./font/ghawar/Ghawar_1.311-Hairline\ Italic.otf') format('opentype');
     font-style: normal;
+    font-display: swap;
   }
 @font-face {
     font-family: 'Ghawar';
@@ -119,6 +134,7 @@
     font-family: 'Ghawar';
     src: url('./font/ghawar/Ghawar_1.311-Heavy\ Italic.otf') format('opentype');
     font-style: normal;
+    font-display: swap;
   }
 @font-face {
     font-family: 'Ghawar';
@@ -129,46 +145,55 @@
     font-family: 'Ghawar';
     src: url('./font/ghawar/Ghawar_1.311-Hefty\ Italic.otf') format('opentype');
     font-style: normal;
+    font-display: swap;
   }
 @font-face {
     font-family: 'Ghawar';
     src: url('./font/ghawar/Ghawar_1.311-Light.otf') format('opentype');
     font-style: normal;
+    font-display: swap;
   }
 @font-face {
     font-family: 'Ghawar';
     src: url('./font/ghawar/Ghawar_1.311-Light\ Italic.otf') format('opentype');
     font-style: normal;
+    font-display: swap;
   }
 @font-face {
     font-family: 'Ghawar';
     src: url('./font/ghawar/Ghawar_1.311-Regular.otf') format('opentype');
     font-style: normal;
+    font-display: swap;
   }
 @font-face {
     font-family: 'Ghawar';
     src: url('./font/ghawar/Ghawar_1.311-Regular\ Italic.otf') format('opentype');
     font-style: normal;
+    font-display: swap;
   }
 @font-face {
     font-family: 'Ghawar';
     src: url('./font/ghawar/Ghawar_1.311-SemiBold\ Italic.otf') format('opentype');
     font-style: normal;
+    font-display: swap;
   }
 @font-face {
     font-family: 'Ghawar';
     src: url('./font/ghawar/Ghawar_1.311-SmeiBold.otf') format('opentype');
     font-style: normal;
+    font-display: swap;
   }
 @font-face {
     font-family: 'Ghawar';
     src: url('./font/ghawar/Ghawar_1.311-Thin.otf') format('opentype');
     font-style: normal;
+    font-display: swap;
   }
 @font-face {
     font-family: 'Ghawar';
     src: url('./font/ghawar/Ghawar_1.311-Thin\ Italic.otf') format('opentype');
     font-style: normal;
+    font-display: swap;
   }
   @keyframes diamond-animation {
     0% {
