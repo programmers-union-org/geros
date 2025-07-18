@@ -132,8 +132,7 @@ const CssSite = () => {
                             tabIndex="-1"
                           >
                             <h2 className="chakra-heading css-19u3rc4">
-                              We currently focus on strategic gold reserves and
-                              natural resource development
+                            Unlocking Global Opportunities in Gold and Resource Markets
                             </h2>
                           </a>
                         </span>
@@ -168,6 +167,8 @@ const CssSite = () => {
                 <div className="css-15cod9l">
                   <div className="slide__background css-0">
                     <img
+                      fetchPriority="high"
+                      loading="eager"
                       alt="Q1 2024 results announcement"
                       src={`${one}?cx=0.97&cy=0.48`}
                       className="chakra-image css-0"

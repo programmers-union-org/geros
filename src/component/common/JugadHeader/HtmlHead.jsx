@@ -195,8 +195,7 @@ const HtmlHead = ({
     "Our Organisations",
   ];
   const dropDownSectors = [
-    "Oil and Gas",
-    "Fossil Fuels",
+    "Gold and Natural Resources",
     "Minerals and Metals",
     "Precious Metals and Gemstones",
     "Industrial Minerals",
@@ -205,6 +204,8 @@ const HtmlHead = ({
     "Rare Earth Elements",
     "Textiles and Fibres",
     "Marine Products",
+    "Oil and Gas",
+    "Fossil Fuels",
   ];
   const dropDownMarkets = [
     "Latin America",
