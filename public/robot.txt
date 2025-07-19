@@ -1,14 +1,8 @@
+# robots.txt for groupgeros.com (static site)
 
-# Allow crawling of all pages
+# Allow all user agents full access to public pages
 User-agent: *
 Allow: /
 
-# Disallow crawling of specific directories
-Disallow: /build/
-Disallow: /node_modules/
-Disallow: /public/
-Disallow: /src/
-
-# Sitemap location
-Sitemap: http://groupgeros.com//sitemap.txt
-
+# Sitemap
+Sitemap: https://www.groupgeros.com/sitemap.xml

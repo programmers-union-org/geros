@@ -1,4 +1,7 @@
-http://groupgeros.com/
-http://groupgeros.com/about-geros
-http://groupgeros.com/why-we-exist
-http://groupgeros.com/oil-and-gas
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://www.groupgeros.com/</loc>
+    <priority>1.0</priority>
+  </url>
+</urlset>

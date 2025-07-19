@@ -2,26 +2,9 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="preconnect" href="https://db.onlinewebfonts.com" crossorigin />
-    <link
-      rel="preload"
-      href="https://fonts.gstatic.com/s/ghawar/VERSION/ghawar-regular.woff2"
-      as="font"
-      type="font/woff2"
-      crossorigin
-    />
-    <link
-      rel="preload"
-      href="https://db.onlinewebfonts.com/YOUR-ID/ManifaPro2-Regular.woff2"
-      as="font"
-      type="font/woff2"
-      crossorigin
-    />
-
-    <link rel="icon" type="image/svg+xml" href="./src/assets/faveicon.webp" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- ► SEO & Social -->
     <title>GEROS | Global Energy & Resources Organisations</title>
     <meta
       name="description"
@@ -32,7 +15,7 @@
     <!-- Open Graph -->
     <meta
       property="og:title"
-      content="GEROS | Global Energy & Resources Organisations "
+      content="GEROS | Global Energy & Resources Organisations"
       data-rh="true"
     />
     <meta
@@ -43,16 +26,15 @@
     <meta property="og:url" content="http://groupgeros.com" data-rh="true" />
     <meta
       property="og:image"
-      content="http://groupgeros.com/assets/sample4-DwsrLQek.jpg"
+      content="http://groupgeros.com/assets/sample4.webp"
       data-rh="true"
     />
     <meta property="og:type" content="website" data-rh="true" />
-
-    <!-- Twitter Card Meta Tags -->
+    <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image" data-rh="true" />
     <meta
       name="twitter:title"
-      content="GEROS | Global Energy & Resources Organisations "
+      content="GEROS | Global Energy & Resources Organisations"
       data-rh="true"
     />
     <meta
@@ -63,22 +45,77 @@
     <meta name="twitter:url" content="http://groupgeros.com" data-rh="true" />
     <meta
       name="twitter:image"
-      content="http://groupgeros.com/assets/sample4-DwsrLQek.jpg"
+      content="http://groupgeros.com/assets/sample4.webp"
       data-rh="true"
     />
     <meta name="twitter:creator" content="@yourtwitterhandle" data-rh="true" />
-    <!-- Global CSS -->
+
+    <!-- ► Favicon -->
+    <link rel="icon" type="image/svg+xml" href="/assets/faveicon.webp" />
+
+    <!-- ► Preconnects for font CDNs -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://db.onlinewebfonts.com" crossorigin />
+
+    <!-- ► 2) DEFER MAIN STYLESHEET -->
     <link
-      href="https://db.onlinewebfonts.com/c/ac20dadb811c9e3dbc05a6373b1fe6ce?family=ManifaPro2+Regular&display=swap"
-      rel="stylesheet"
+      rel="preload"
+      as="style"
+      href="/assets/index-DbeDNgt2.css"
+      onload="this.onload=null;this.rel='stylesheet'"
+    />
+    <noscript>
+      <link rel="stylesheet" href="/assets/index-DbeDNgt2.css" />
+    </noscript>
+
+    <!-- ► 3) PRELOAD YOUR FONT FILES -->
+    <link
+      rel="preload"
+      as="font"
+      href="https://fonts.gstatic.com/s/ghawar/VERSION/ghawar-regular.woff2"
+      type="font/woff2"
+      crossorigin
     />
     <link
+      rel="preload"
+      as="font"
+      href="https://db.onlinewebfonts.com/YOUR-ID/ManifaPro2-Regular.woff2"
+      type="font/woff2"
+      crossorigin
+    />
+
+    <!-- ► 4) LOAD FONT STYLESHEETS NON-BLOCKING -->
+    <link
+      rel="preload"
+      as="style"
       href="https://fonts.googleapis.com/css2?family=Ghawar&display=swap"
-      rel="stylesheet"
+      onload="this.onload=null;this.rel='stylesheet'"
     />
+    <noscript>
+      <link
+        href="https://fonts.googleapis.com/css2?family=Ghawar&display=swap"
+        rel="stylesheet"
+      />
+    </noscript>
+
+    <link
+      rel="preload"
+      as="style"
+      href="https://db.onlinewebfonts.com/c/ac20dadb811c9e3dbc05a6373b1fe6ce?family=ManifaPro2+Regular&display=swap"
+      onload="this.onload=null;this.rel='stylesheet'"
+    />
+    <noscript>
+      <link
+        href="https://db.onlinewebfonts.com/c/ac20dadb811c9e3dbc05a6373b1fe6ce?family=ManifaPro2+Regular&display=swap"
+        rel="stylesheet"
+      />
+    </noscript>
   </head>
+
   <body>
     <div id="root"></div>
+    <!-- Vite will swap this to your built JS in production -->
     <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>
