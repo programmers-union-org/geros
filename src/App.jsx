@@ -10,8 +10,8 @@ import OilAndGas from "./pages/OilAndGas";
 import Drilling from "./pages/Drilling";
 import EnvironmentalAndSafety from "./pages/EnvironmentalAndSafety";
 import ConsultingAndEngineering from "./pages/ConsultingAndEngineering";
-import menu1 from "../src/assets/menu1.webp";
-import menu from "../src/assets/menu.webp";
+import menu1 from "/assets/menu1.webp";
+import menu from "/assets/menu.webp";
 import { HelmetProvider } from "react-helmet-async";
 import Goldandnaturalresources from "./pages/Goldandnaturalresources";
 

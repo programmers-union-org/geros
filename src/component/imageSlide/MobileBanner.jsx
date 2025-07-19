@@ -1,8 +1,8 @@
 import React from 'react';
-import one from "../../assets/one1.webp";
-import two from "../../assets/one2.webp";
-import three from "../../assets/one3.webp";
-import four from "../../assets/one4.webp";
+import one from "/assets/one1.webp";
+import two from "/assets/one2.webp";
+import three from "/assets/one3.webp";
+import four from "/assets/one4.webp";
 import Nav from './Nav';
 import WhiteArrow from '../Arrows/WhiteArrow';
 import { Link } from 'react-router-dom';

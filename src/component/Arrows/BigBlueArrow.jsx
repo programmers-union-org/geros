@@ -1,5 +1,5 @@
 import React from 'react';
-import arrow from  '../../assets/blueArrow.webp'
+import arrow from  '/assets/blueArrow.webp'
 
 const BigBlueArrow = () => {
   return (

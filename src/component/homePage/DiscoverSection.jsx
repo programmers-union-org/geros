@@ -1,9 +1,9 @@
 import  { useEffect, useRef } from 'react';
-import product from '../../assets/product.webp';
-import oil from '../../assets/oil.webp';
-import supplay from '../../assets/supplay.webp';
-import drilling from '../../assets/drilling.webp';
-import gold from '../../assets/gold.webp';
+import product from '/assets/product.webp';
+import oil from '/assets/oil.webp';
+import supplay from '/assets/supplay.webp';
+import drilling from '/assets/drilling.webp';
+import gold from '/assets/gold.webp';
 
 const DiscoverSection = () => {
   const scrollLineRef = useRef(null);

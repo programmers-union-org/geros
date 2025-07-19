@@ -3,10 +3,10 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 import TimeRange from "../timeRange/TimeRange";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import one from "../../assets/one1.webp";
-import two from "../../assets/one2.webp";
-import three from "../../assets/one3.webp";
-import four from "../../assets/one4.webp";
+import one from "/assets/one1.webp";
+import two from "/assets/one2.webp";
+import three from "/assets/one3.webp";
+import four from "/assets/one4.webp";
 import Slider from "react-slick";
 
 

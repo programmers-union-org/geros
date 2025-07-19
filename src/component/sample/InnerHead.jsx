@@ -9,10 +9,10 @@ import "./s8.css";
 import "./s9.css";
 import "./s10.css";
 import './myStyle.css'
-import close from "../../assets/close.webp";
-import menu from "../../assets/menu.webp";
-import whiteLogo from "../../assets/whiteLogo.webp";
-import singleLogos from "../../assets/singleLogos.webp";
+import close from "/assets/close.webp";
+import menu from "/assets/menu.webp";
+import whiteLogo from "/assets/whiteLogo.webp";
+import singleLogos from "/assets/singleLogos.webp";
 import { Link } from "react-router-dom";
 
 const InnerHead = () => {

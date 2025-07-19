@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
-import close from '../../assets/close.webp'
-import logo from '../../assets/singleLogo.webp'
+import close from '/assets/close.webp'
+import logo from '/assets/singleLogo.webp'
 
 const Nav = ({aboutHandle,toggleDropdown}) => {
 

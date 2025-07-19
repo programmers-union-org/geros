@@ -8,10 +8,10 @@ import "./s7.css";
 import "./s8.css";
 import "./s9.css";
 import "./s10.css";
-import close from "../../../assets/close.webp";
-import singleLogos from "../../../assets/singleLogos.webp";
-import gerosLogo from "../../../assets/geros-logo.webp";
-import whiteLogo from "../../../assets/whiteLogo.webp";
+import close from "/assets/close.webp";
+import singleLogos from "/assets/singleLogos.webp";
+import gerosLogo from "/assets/geros-logo.webp";
+import whiteLogo from "/assets/whiteLogo.webp";
 import { Link, useNavigate } from "react-router-dom";
 
 const HtmlHead = ({

@@ -1,6 +1,6 @@
 import { useState } from "react";
-import whiteLogo from "../../assets/whiteLogo.webp";
-import gerosLogo from "../../assets/geros-logo.webp";
+import whiteLogo from "/assets/whiteLogo.webp";
+import gerosLogo from "/assets/geros-logo.webp";
 import { Link, useNavigate } from "react-router-dom";
 
 const Footer = () => {

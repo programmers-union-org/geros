@@ -10,11 +10,11 @@ import "./s9.css";
 import "./s10.css";
 import "./myStyle.css";
 import "../../../styl.css";
-import one from "../../../assets/one1.webp";
-import two from "../../../assets/one2.webp";
-import three from "../../../assets/one3.webp";
-import four from "../../../assets/one4.webp";
-import five from "../../../assets/one5.webp";
+import one from "/assets/one1.webp";
+import two from "/assets/one2.webp";
+import three from "/assets/one3.webp";
+import four from "/assets/one4.webp";
+import five from "/assets/one5.webp";
 
 const CssSite = () => {
   const [activeIndex, setActiveIndex] = useState(0);
