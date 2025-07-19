@@ -1,8 +1,8 @@
 import  { useEffect, useRef } from 'react';
-import product from '../../assets/product.jpg';
-import oil from '../../assets/oil.jpeg';
-import supplay from '../../assets/supplay.jpg';
-import drilling from '../../assets/drilling.jpg';
+import product from '../../assets/product.webp';
+import oil from '../../assets/oil.webp';
+import supplay from '../../assets/supplay.webp';
+import drilling from '../../assets/drilling.webp';
 import gold from '../../assets/gold.webp';
 
 const DiscoverSection = () => {

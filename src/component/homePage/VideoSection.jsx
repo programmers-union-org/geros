@@ -1,5 +1,5 @@
 import { useEffect, useState, useRef } from 'react';
-import video from '../../assets/video.jpg';
+import video from '../../assets/video.webp';
 
 const VideoSection = () => {
   const [imageStyle, setImageStyle] = useState({

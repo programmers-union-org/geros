@@ -1,5 +1,5 @@
 
-import logo from '../assets/whiteLogo.png'
+import logo from '../assets/whiteLogo.webp'
 
 const InnerNav = () => {
   return (

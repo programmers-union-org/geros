@@ -1,4 +1,4 @@
-import about from '../../assets/about.jpg'
+import about from '../../assets/about.webp'
 import ArrowIconWhite from '../Arrows/ArrowIconWhite';
 import { Link } from 'react-router-dom';
 import { ParallaxProvider } from 'react-scroll-parallax';

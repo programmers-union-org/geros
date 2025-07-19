@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from "react";
 import styled, { keyframes } from "styled-components";
 import Nav from "../imageSlide/Nav";
-import one from "../../assets/one1.jpg"
-import two from "../../assets/one2.jpg";
-import three from "../../assets/one3.jpg";
-import four from "../../assets/one4.jpg";
-import close from "../../assets/close.png";
+import one from "../../assets/one1.webp"
+import two from "../../assets/one2.webp";
+import three from "../../assets/one3.webp";
+import four from "../../assets/one4.webp";
+import close from "../../assets/close.webp";
 import TimeRange from "../timeRange/TimeRange";
 import AramcoTimeRane from "../timeRange/AramcoTimeRane";
 

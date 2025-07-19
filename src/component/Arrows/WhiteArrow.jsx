@@ -1,5 +1,5 @@
 import React from "react";
-import whiteArrow from "../../assets/whiteArrow.png";
+import whiteArrow from "../../assets/whiteArrow.webp";
 
 const WhiteArrow = ({sizeOne, sizeTwo }) => {
   return (

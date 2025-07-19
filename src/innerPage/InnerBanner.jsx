@@ -1,5 +1,5 @@
 
-import innerImage from '../../src/assets/inner.jpg'
+import innerImage from '../../src/assets/inner.webp'
 
 const InnerBanner = ({title}) => {
   return (

@@ -1,9 +1,9 @@
-import first from '../../assets/sample6.jpeg'
-import second from '../../assets/sample7.jpeg'
-import therd from '../../assets/sample4.jpg'
-import fourth from '../../assets/sample8.jpeg'
-import fifth from '../../assets/sample9.jpeg'
-import sixth from '../../assets/sample10.jpeg'
+import first from '../../assets/sample6.webp'
+import second from '../../assets/sample7.webp'
+import therd from '../../assets/sample4.webp'
+import fourth from '../../assets/sample8.webp'
+import fifth from '../../assets/sample9.webp'
+import sixth from '../../assets/sample10.webp'
 
 const ThreeCard = () => {
   return (
