@@ -20,8 +20,8 @@ import react from '@vitejs/plugin-react';
 // https://vitejs.dev/config/
 export default defineConfig({
   build: {
-    outDir: 'build', // Sets the output directory for the production build
-    chunkSizeWarningLimit: 1000, // Adjust this to suppress chunk size warnings
+    outDir: 'dist', 
+    chunkSizeWarningLimit: 1000, 
   },
   server: {
     host: '0.0.0.0', // Makes the server accessible on the local network
