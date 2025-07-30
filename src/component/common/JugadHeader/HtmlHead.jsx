@@ -72,7 +72,7 @@ const HtmlHead = ({
 
   const navBarClickHandle = (id) => {
     if (id == 5) {
-      const pdfUrl = "/group_geros_2025.pdf";
+      const pdfUrl = "/group_geros_2025.";
       window.open(pdfUrl, "_blank");
     } else {
       if (navTextColor === id && showDropdown) {

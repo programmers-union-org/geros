@@ -12,7 +12,7 @@ const Home = () => {
       <DiscoverSection />
       <ThreeCard />
       {/* <VideoSection /> */}
-      <PdfReactPdf src="/group_geros_2025.pdf" />
+      <PdfReactPdf src="/GEROS Gold & Oil - E&P - Presentation July 2025.pdf" />
       <AboutBg />
     </div>
   );
